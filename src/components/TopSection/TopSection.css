@@ -1,0 +1,49 @@
+.top-section{
+    background-color: #181A18;
+    color: #fff;
+    font-weight: lighter;
+    justify-content: center;
+    padding-bottom: 0.5rem;
+}
+
+.top-section-1{
+    display: flex;
+    align-items: center;
+    border-bottom: 0.5px solid #ffff;
+    padding: 0 20rem;
+}
+
+.currencies{
+    margin-right: 2rem;
+}
+
+.search-area{
+    height: 2rem;
+    margin-right: 1rem;
+    border: 1px solid #ffff;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.search-area::after{
+    border: none;
+    border: 1px solid #ffff;
+}
+
+.top-section-2{
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    align-items: center;
+    border-bottom: 0.5px solid #ffff;
+    padding: 0 20rem;
+    font-size: 0.875rem;
+    font-weight: 300;
+}
+
+.coin-section, .rank-section p{
+    text-align: left;
+}
+
+.price-section, .volume-section, .price-percentage-change, .mkt-cap-section{
+    text-align: right;
+}

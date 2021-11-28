@@ -1,0 +1,15 @@
+.navbar{
+    margin-top: 4rem;
+    background-color: #181A18;
+    font-weight: 200;
+    font-size: 2rem;
+    border-top: 0.5px solid #fff;
+    border-bottom: 0.5px solid #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.navbar p{
+    margin: 0.8rem 0 1rem 0;
+    color: #77D970;
+}
